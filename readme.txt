@@ -3,13 +3,16 @@
 
 >           WORKFLOW MODEL:
 
-    1: Make a fluid_problem, either by using , or by manually assigning potentials using the class functions.
+    1: Import model, the Python file that contains all classes and functions needed to perform experiments.
+        -You shouldn't be editing model.py! You should only be making your own python files and importing model, so we can keep the classes seperate from the experiments.
+
+    2: Make a fluid_problem, either by using , or by manually assigning potentials using the class functions.
         (optional step: save/load your fluid_problem)
 
-    2: Use a sampler to sample fluid_problem and generate a fluid_results object.
+    3: Use a sampler to sample fluid_problem and generate a fluid_results object.
         (again, fluid_results can be saved/loaded freely. the sampler should automatically save the results, too)
 
-    3: Use whatever analytical tool you please to analyze fluid_results. 
+    4: Use whatever analytical tool you please to analyze fluid_results. 
         -You can find g(r) by calling XXXX.get_g_of_r(), where XXXX is the results object.
         -You can
 
