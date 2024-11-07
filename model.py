@@ -77,6 +77,7 @@ POSSIBLE FUTURE IDEAS:
 "tabu"                  -use the dwave-system tabu solver (seems to be a good quantum simulator)
 "tree"                  -uses dwave-samplers tree decomposition solver... might be fast? maybe?
 "QPU"                   -the pure QPU solver from the older versions (only works up to 13x13). currently broken and I don't know why lmao
+"fastannealer"          -???? no idea, let's see what it does
 
 part of the reason this codebase exists is because different solvers give different datatypes and require different parameters - hence why I'm using custom classes for everything, so I can actually know what's going on
 """
